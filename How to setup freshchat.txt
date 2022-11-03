@@ -1,0 +1,31 @@
+How to setup freshchat
+https://pub.dev/packages/firebase_messaging/versions/7.0.3
+For Android just follow the instructions on firebase_messaging
+On ios follow instructions on firebase_messaging and you'd do some config on Xcode.
+Installing a firebse json file, you need to check
+https://firebase.flutter.dev/docs/manual-installation/ios/
+
+
+To get freshchat credentials
+ - Sign up to freshchat (Google it or something)
+ - Activate your account
+ - Goto settings then click on Mobile SDK
+
+
+For Missing/Bad FileProvider for Freshchat. Camera capture will fail in devices running Nougat or later versions of OS (error code 354)
+
+android\app\src\main\AndroidManifest.xml
+
+<provider
+    android:name="androidx.core.content.FileProvider"
+    android:authorities="in.package.name"
+    android:exported="false"
+    android:grantUriPermissions="true">
+    <meta-data
+        android:name="android.support.FILE_PROVIDER_PATHS"
+        android:resource="@xml/freshchat_file_provider_paths" />
+</provider>
+
+android\app\src\main\res\values\strings.xml
+
+<string name="freshchat_file_provider_authority">in.package.name</string>

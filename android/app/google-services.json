@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "271302114453",
+    "project_id": "test-freshchat-323bb",
+    "storage_bucket": "test-freshchat-323bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271302114453:android:ff489e040a4321c9176f9c",
+        "android_client_info": {
+          "package_name": "com.example.freshchat_busola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271302114453-a4f5poqnma01ara6pfl5saj1n0kpoprm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCYJwGwoLNa5A8GXUCBQ2qTg2A7gMq33I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271302114453-a4f5poqnma01ara6pfl5saj1n0kpoprm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271302114453:android:64d269b8f00603dc176f9c",
+        "android_client_info": {
+          "package_name": "com.example.official_fresh_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271302114453-a4f5poqnma01ara6pfl5saj1n0kpoprm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCYJwGwoLNa5A8GXUCBQ2qTg2A7gMq33I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271302114453-a4f5poqnma01ara6pfl5saj1n0kpoprm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
